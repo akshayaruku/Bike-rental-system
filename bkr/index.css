@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    height: 100vh;
+    /* width: 100%; */
+    /* overflow: hidden; */
+
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #71b493, #74a6ce);
+  background: -moz-linear-gradient(right, #71b493, #74a6ce);
+  background: -o-linear-gradient(right, #71b493, #74a6ce);
+  background: linear-gradient(to left, #71b493, #74a6ce);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;    
+  border:none!important;
+    padding:0!important;
+    margin:0 !important;  
+  
+}
+html{
+    padding:0px;
+    box-shadow: none;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    border:none!important;
+    padding:0!important;
+    margin:0 !important;
+
+}
+
+#sideNav{
+    font-family: Arial;
+    width: 250px;
+    height:100vh;
+    position:fixed;
+    right:-250px;
+    top:0;
+    background: #05caba;
+    z-index: 2;
+    transition: 0.5s;
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #71b493;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top:20px;
+    border-radius:3px;
+    z-index: 3;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
+.block1{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width:60%;
+    margin: 10px auto;
+    
+
+}
+.b1img{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    padding:10px 10px;
+}
+.b1desc{
+    padding: 10px 20px;
+    color:white;
+}
+.book-container{
+    max-width: 100%;
+    overflow: hidden;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bike{
+    
+    background-color: rgba(0, 0, 0, 0.15);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    text-align: center;
+    padding: 15px 10px;
+    width: 200px;
+    height: 500px;
+    margin: 30px 30px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5), 0 5px 5px 0 rgba(255, 255, 255, 0.5);
+
+
+
+}
+.btn{
+    background:rgb(127, 87, 192);
+    color:white;
+
+    border-radius:5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btndis{
+    background:rgb(127, 87, 192,0.1);
+    color:white;
+
+    border-radius:5px;
+    padding: 10px;
+}
+.about{
+    background:#181544;
+    color:white;
+    min-width:  100%;
+    
+    
+}
+.footer-container{
+    display: flex;
+   
+    justify-content:space-around;
+
+}
+.footbox{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.head{
+    background:url(images/background.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 50vh;
+    width: 100%;
+    background-color: #93c0bc;
+    color:white;
+    padding: 1px;
+}
+html{
+    border:none!important;
+    padding:0!important;
+    margin:0 !important;
+}
+.aboutus{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    
+}
+.book{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+   
+}
+  .bookbutton,.bookbutton:link,
+  .bookbutton:visited{
+    position: relative;
+    top:39%;
+    left:34.5%;
+    min-width: 40px;
+    border-radius:10px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    margin: auto 20px;
+    padding: 10px 18px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgba(247,141,3, 0.5), 0 5px 5px 0 rgba(247,141,3, 0.5);
+
+    
+    color:white;
+    background-color: rgba(247, 141, 3);
+    font-size: 20px;
+    
+}
+.bookbutton:hover, .bookbuttonactive {
+    
+    box-shadow: 0 0 30px 0 rgba(255,255,255, 0.5), 0 5px 5px 0 rgba(255,255,255, 0.5);
+
+    color:black;
+    background:white;
+    
+}  
+.bookbutton1,.bookbutton1:link,
+.bookbutton1:visited{
+  position: relative;
+  top:39%;
+  left:42%;
+  border-radius:10px;
+
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+  margin: auto 20px;
+  padding: 10px 18px;
+  display: inline-block;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 30px 0 rgba(247,141,3, 0.5), 0 5px 5px 0 rgba(247,141,3, 0.5);
+
+  
+  color:white;
+  background-color: rgba(247, 141, 3);
+  font-size: 20px;
+  
+}
+.bookbutton1:hover, .bookbutton1active {
+  
+  box-shadow: 0 0 30px 0 rgba(255,255,255, 0.5), 0 5px 5px 0 rgba(255,255,255, 0.5);
+
+  color:black;
+  background:white;
+  
+}  
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+

@@ -1,0 +1,75 @@
+:root {
+    --clr-gray-light1: #f1f7f9;
+    --clr-gray-light: #d7dfe2;
+    --clr-gray-med: #616b74;
+    --clr-gray-dark: #414b56;
+    --clr-link: #4d97b2;
+    --clr-approved: #0ed116;
+    --clr-pending: #f8c820;
+    --clr-review: #f97d38;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Hind Siliguri", sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-gray-dark);
+    background: var(--clr-gray-light1);
+  }
+  
+  table {
+    box-shadow: 0px 2px 20px var(--clr-gray-light);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border-collapse: separate;
+    border-spacing: .5rem;
+    text-align: left;
+    background: white;
+  }
+  
+  .table-row {
+    box-shadow: 0px 0px 5px var(--clr-gray-light);
+    border-radius: 0.5rem;
+    transition: 250ms all ease-in-out;
+    cursor: pointer;
+  }
+  
+  .table-row:hover {
+    transform: scale(1.03);
+  }
+  
+  .table-row > td {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  th {
+    padding-left: 1rem;
+  }
+  
+  .status-icon {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .review {
+    background: var(--clr-review);
+  }
+  
+  .pending {
+    background: var(--clr-pending);
+  }
+  
+  .approved {
+    background: var(--clr-approved);
+  }

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body {
+    height: 100vh;
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #71b493, #74a6ce);
+  background: -moz-linear-gradient(right, #71b493, #74a6ce);
+  background: -o-linear-gradient(right, #71b493, #74a6ce);
+  background: linear-gradient(to left, #71b493, #74a6ce);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+table{
+    width: auto;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+    margin:center;
+    
+}
+.sec{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.bookbutton{
+    
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.5), 0 5px 5px 0 rgba(255, 255, 255, 0.5);
+
+    /* border-radius: 10px; */
+    color:white;
+    background-color: rgba(255, 255, 255,0.1);
+    font-size: 20px;
+    
+}
+.bookbutton:hover {
+    transition: linear 0.6s;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 2px solid white;
+    /* border-radius: 10px; */
+    color:black;
+    background:white;
+    font-size: 20px;
+}
